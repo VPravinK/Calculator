@@ -1,0 +1,60 @@
+body{
+
+    display:-ms-grid;
+}
+
+#Calc{
+    display: grid;
+    margin: 10%;
+    background-color:dimgrey;
+    height: 350px;
+    width: 250px;
+    align-items:center;
+    text-decoration:dashed;
+    border-radius: 40px;
+    }
+
+
+#form1 {
+    
+    margin: 30px;
+    width: 100%;
+    
+    align-items: center;
+    position: absolute;
+}
+.btn{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    padding: 15px 15px;
+    margin: 8px;
+    text-align: center;
+    border-radius: 30%;
+    border-color: brown;
+    color: black;
+    text-align: center;
+
+}
+.btn_plus{
+    height: 60px;
+}
+#disply{
+    height: 30px;
+    width: 185px;
+    border-radius: 10%;
+    border-color:brown;
+    background-color: darkgray;
+    animation: result 5s 2s forwards;
+}
+.btn_long{
+    position: absolute;
+    left: 160px;
+    top: 105px;
+}
+.btn_long .btn_{
+    height: 80px;
+    border-radius: 20px;
+    align:left;
+}
+
