@@ -39,6 +39,17 @@ body{
 .btn_plus{
     height: 60px;
 }
+.btn_{
+    background-color: aqua;
+}
+.btn_clear{
+    background-color: red;
+}
+.btn_zero{
+    width: 90px;
+    border-radius: 20px;
+}
+
 #disply{
     height: 30px;
     width: 185px;
