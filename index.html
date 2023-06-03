@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator </title>
+    <link type="text/css" href="Calc.css" rel="stylesheet"></link>
+</head>
+<body>
+    <div id="Calc">
+    <form id="form1">
+        <input type="text" id="disply" name="display"><br><br>
+        <input type="button" class="btn btn_clear" value="C" onclick="form1.display.value=''">
+        <input type="button" class="btn btn_" value="/" onclick="form1.display.value=form1.display.value+'/'">
+        <input type="button" class="btn btn_" value="*" onclick="form1.display.value=form1.display.value+'*'">
+        <input type="button" class="btn btn_" value="-" onclick="form1.display.value=form1.display.value+'-'">
+        <br>
+        <input type="button" class="btn btn_seven" value="7" onclick="form1.display.value=form1.display.value+7">
+        <input type="button" class="btn btn_eight" value="8" onclick="form1.display.value=form1.display.value+8">
+        <input type="button" class="btn btn_nine" value="9" onclick="form1.display.value=form1.display.value+9">
+        <br>
+        <input type="button" class="btn btn_four" value="4" onclick="form1.display.value=form1.display.value+4">
+        <input type="button" class="btn btn_five" value="5" onclick="form1.display.value=form1.display.value+5">
+        <input type="button" class="btn btn_six" value="6" onclick="form1.display.value=form1.display.value+6">
+        <div class="btn_long">
+            <input class="btn btn_" type="button" value="+" onclick="form1.display.value=form1.display.value+'+'"><br>
+            <input type="button" class="btn btn_" value="=" onclick="form1.display.value=eval(form1.display.value)">      
+        
+        </div>
+        <br>
+
+        
+        <input class="btn btn_one" type="button" value="1" onclick="form1.display.value=form1.display.value+1">
+        <input class="btn btn_two" type="button" value="2" onclick="form1.display.value=form1.display.value+2">
+        <input class="btn btn_three" type="button" value="3" onclick="form1.display.value=form1.display.value+3"><br>
+        
+        <input type="button" class="btn btn_zero" value="0" onclick="form1.display.value=form1.display.value+0">
+        <input type="button" class="btn btn_dot" value="." onclick="form1.display.value=form1.display.value+'.'">
+        
+        </form>    
+    </div>
+</body>
+</html>
