@@ -10,12 +10,22 @@
 <body>
     <div id="Calc">
     <form id="form1">
-        <input type="text" id="disply" name="display"><br><br>
+        <input type="text" id="disply" class="screen" name="display"><br><br>
         <input type="button" class="btn btn_clear" value="C" onclick="form1.display.value=''">
         <input type="button" class="btn btn_" value="/" onclick="form1.display.value=form1.display.value+'/'">
         <input type="button" class="btn btn_" value="*" onclick="form1.display.value=form1.display.value+'*'">
         <input type="button" class="btn btn_" value="-" onclick="form1.display.value=form1.display.value+'-'">
         <br>
+        <input type="button" id="trigo" class="btn btn_ trigo" value="sin" onclick="form1.display.value=form1.display.value+'sin'">
+        <input type="button" id="trigo" class="btn btn_ trigo" value="cos" onclick="form1.display.value=form1.display.value+'cos'">
+        <input type="button" id="trigo" class="btn btn_ trigo" value="tan" onclick="form1.display.value=form1.display.value+'tan'">
+        <input type="button" id="trigo" class="btn btn_ trigo" value="log" onclick="form1.display.value=form1.display.value+'log'"><br>
+        <input type="button" class="btn btn_" value="(" onclick="form1.display.value=form1.display.value+'('">
+        <input type="button" class="btn btn_" value=")" onclick="form1.display.value=form1.display.value+')'">   
+        <input type="button" class="btn btn_" value="%" onclick="form1.display.value=form1.display.value+'%'">
+        <input type="button" class="btn btn_" value="sq.rt" onclick="form1.display.value=form1.display.value+">
+        <br>    
+        
         <input type="button" class="btn btn_seven" value="7" onclick="form1.display.value=form1.display.value+7">
         <input type="button" class="btn btn_eight" value="8" onclick="form1.display.value=form1.display.value+8">
         <input type="button" class="btn btn_nine" value="9" onclick="form1.display.value=form1.display.value+9">
@@ -37,6 +47,7 @@
         
         <input type="button" class="btn btn_zero" value="0" onclick="form1.display.value=form1.display.value+0">
         <input type="button" class="btn btn_dot" value="." onclick="form1.display.value=form1.display.value+'.'">
+        
         
         </form>    
     </div>
